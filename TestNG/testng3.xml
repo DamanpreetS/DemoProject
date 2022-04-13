@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="tests" thread-count="5">
+
+<listeners>
+<listener class-name="testNG.pack1.SampleListener"></listener>
+</listeners>
+  <test  name="TestFolder1" parallel="classes" thread-count="2" >
+
+
+<classes>
+
+<class name="testNG.pack1.Sample2">
+</class> 
+
+<class name="testNG.pack2.Sample">
+<methods>
+
+</methods></class>
+</classes>
+</test>
+</suite> <!-- Suite -->

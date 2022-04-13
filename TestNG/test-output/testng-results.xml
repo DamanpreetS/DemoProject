@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-29T15:43:41 IST" name="Suite" finished-at="2022-03-29T15:43:41 IST" duration-ms="58">
+    <groups>
+      <group name="Smoke">
+        <method signature="Sample2.display1()[pri:0, instance:testNG.pack1.Sample2@37858383]" name="display1" class="testNG.pack1.Sample2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-03-29T15:43:41 IST" name="TestFolder1" finished-at="2022-03-29T15:43:41 IST" duration-ms="58">
+      <class name="testNG.pack1.Sample2">
+        <test-method signature="display()[pri:0, instance:testNG.pack1.Sample2@37858383]" started-at="2022-03-29T15:43:41 IST" name="display" finished-at="2022-03-29T15:43:41 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method signature="display1()[pri:0, instance:testNG.pack1.Sample2@37858383]" started-at="2022-03-29T15:43:41 IST" name="display1" finished-at="2022-03-29T15:43:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display1 -->
+      </class> <!-- testNG.pack1.Sample2 -->
+      <class name="testNG.pack2.Sample">
+        <test-method signature="display()[pri:0, instance:testNG.pack2.Sample@140c9f39]" started-at="2022-03-29T15:43:41 IST" name="display" finished-at="2022-03-29T15:43:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method signature="display1()[pri:0, instance:testNG.pack2.Sample@140c9f39]" started-at="2022-03-29T15:43:41 IST" name="display1" finished-at="2022-03-29T15:43:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display1 -->
+      </class> <!-- testNG.pack2.Sample -->
+    </test> <!-- TestFolder1 -->
+  </suite> <!-- Suite -->
+</testng-results>
